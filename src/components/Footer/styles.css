@@ -1,0 +1,10 @@
+.footer {
+	width: 100%;
+	height: 64px;
+	bottom: 0;
+	opacity: 1;
+	background-color: #273B69;
+
+	/* position: sticky; */
+	z-index: 1;
+}

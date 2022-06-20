@@ -1,0 +1,30 @@
+.header {
+    /* position: absolute; */
+    width: 100vw;
+    height: 64px;
+    left: 0px;
+    top: 0;
+    opacity: 1;
+    background: #273B69;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 1;
+}
+
+@media (max-width: 760px) {
+    .header {
+        max-width: 740px;
+        height: 64px;
+        /* left: 0px; */
+        top: 0;
+        opacity: 1;
+        background: #273B69;
+        /* display: flex; */
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        z-index: 1;
+    }
+}
